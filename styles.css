@@ -1,0 +1,52 @@
+body{
+    
+    background-image: linear-gradient(to right , #e90014, #f40044, #f3006f, #e4009b, #c417c4, #ad35d3, #9247df, #7155e8, #6f57e2, #6e59dc, #6d5bd5, #6c5dcf);
+    background-repeat: none;
+}
+#canvas1
+{   
+    width: 60vw;
+    height: 30vw;    
+    background-image:url( https://blog.weekendthrill.com/wp-content/uploads/2016/05/17205427620_aa4613c086_k.jpg);
+    background-size: cover;
+}
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid black;
+    padding: 10px;
+  }
+  .content
+  {  float:left;
+      position: absolute;
+      margin :0;
+  }
+  #date
+  {   position: fixed;
+      left:59%;
+      font-size: 2vw ;
+      top: 20px;
+      
+  }
+  #time
+  {
+    position: fixed;
+    left:60%;
+    font-size: 2vw ;
+    top: 40px;
+  }
+  #demo
+  {
+      font-size: 3vw ;
+      margin: auto;
+      width: auto;
+  }
+  #greet
+  {
+      color:black;
+      position: fixed;
+      font-size: 3vw ;
+      top:15vw;
+      left:40vw;
+  }
+ 
